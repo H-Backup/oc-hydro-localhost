@@ -9,6 +9,5 @@ php_errors.log
 composer.lock
 
 plugins/
-storage/
 modules/
 themes/
