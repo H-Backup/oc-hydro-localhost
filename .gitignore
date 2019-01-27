@@ -1,0 +1,14 @@
+/bootstrap/compiled.php
+/vendor
+.DS_Store
+.idea
+.env
+.env.*.php
+.env.php
+php_errors.log
+composer.lock
+
+plugins/
+storage/
+modules/
+themes/
