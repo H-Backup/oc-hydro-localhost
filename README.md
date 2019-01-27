@@ -9,9 +9,8 @@ A working October CMS installation for testing the Hydro Raindrop plugin.
 - Create MySQL database `oc-hydro-localhost` (use `utf8mb4` encoding for the database).
 - Update the database parameters in `.env`
 - `composer update`
+- `php artisan theme:use hydroraindropdemo` (set active theme).
 - Navigate to `https://hostname/backend`, log in with user `admin` and password `admin`.
-- Navigate to `https://hostname/backend/cms/themes` (depends on your local development set-up).
-- Activate the Hydro Demo theme.
 
 ## Reset Hydro Raindrop plugin
 
