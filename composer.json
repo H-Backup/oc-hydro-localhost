@@ -30,7 +30,7 @@
         "source": "https://github.com/octobercms/october"
     },
     "require": {
-        "php": ">=7.0",
+        "php": ">=7.1",
         "ext-mbstring": "*",
         "ext-openssl": "*",
         "october/rain": "~1.0",
@@ -42,7 +42,7 @@
         "rainlab/user-plugin": "dev-master",
         "rainlab/translate-plugin": "dev-master",
         "crypt0h3nk/oc-hydroraindropdemo-theme": "dev-develop",
-        "crypt0h3nk/oc-raindrop-plugin": "dev-develop"
+        "hydrocommunity/oc-raindrop-plugin": "dev-develop"
     },
     "scripts": {
         "post-create-project-cmd": [
@@ -61,6 +61,12 @@
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/HydroBlockchain/oc-hydroraindrop-plugin"
+        }
+    ],
     "extra": {
         "merge-plugin": {
             "include": [
@@ -69,9 +75,6 @@
             "recurse": true,
             "replace": false,
             "merge-dev": false
-        },
-        "installer-paths": {
-            "plugins/hydrocommunity/{$name}": ["crypt0h3nk/oc-raindrop-plugin"]
         }
     }
 }
